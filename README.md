@@ -5,4 +5,4 @@
 然后在网址 URL 中，常用的合法字符有 0～9、a～z、A～Z 62个字符,为了将短地址变的更短一些，，将10进制的哈希值转换为62进制  
 eg:   
 网址 https://github.com/luckyxunmo/shortUrl/" 经过hash 运算后为 1815391910，然后使用62进制表示为 1YRcmG  
-所以对应的断链为 https://{domain}/1YRcmG  
+所以对应的断链为 https://{domain}/1YRcmG ，其中 domain 为短链服务器的域名
